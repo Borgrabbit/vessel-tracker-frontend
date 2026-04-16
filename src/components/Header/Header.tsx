@@ -16,6 +16,9 @@ const Header: React.FC = () => {
           <Link to='/about' className='text-gray-800 hover:text-blue-500'>
             About
           </Link>
+          <Link to='/mapbox' className='text-gray-800 hover:text-blue-500'>
+            Mapbox
+          </Link>
         </nav>
         <ThemeToggle />
       </div>

@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
+import MapboxPage from './pages/MapboxPage';
 import Header from './components/Header/Header';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
+            <Route path='/mapbox' element={<MapboxPage />} />
           </Routes>
         </div>
       </div>
